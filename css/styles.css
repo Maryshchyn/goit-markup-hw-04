@@ -374,18 +374,16 @@ ul{
       border-radius: 50%;
       width: 44px;
       height: 44px;
-      fill: var(--color-letra); 
+      /* fill: var(--color-letra);  */
 }
 .social-links:hover,
 .social-links:focus{
       background-color: var(--accent-txt);
-      fill: var(--primary-dark-txt);
 }
-.social-link:hover, 
-.social-link:focus{
-      /* fill: var(--primary-dark-txt) ;
-      fill: var(--primary-dark-txt); */
+.social-link:hover{
+      fill: #df1e1e;
 }
+      
 .clients{
       font-size: 36px;
       line-height: 1.16;
@@ -407,9 +405,11 @@ ul{
       
 }
 .svg-client{
-      outline: 2px solid;
-      margin-right: 30px;
-      
+      width: 170px;
+      height: 90px;
+      border: 1px solid #AFB1B8;
+      box-sizing: border-box;
+      border-radius: 4px;    
 }
 .class-client{
       width: 106px;

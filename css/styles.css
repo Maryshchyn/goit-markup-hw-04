@@ -365,7 +365,9 @@ ul{
       width: 20px;
       height: 20px;
       background-position: center;
-      
+} 
+.social-link:hover{
+      fill: #FFFFFF;
 }
 .social-links{
       display: flex;
@@ -374,14 +376,11 @@ ul{
       border-radius: 50%;
       width: 44px;
       height: 44px;
-      /* fill: var(--color-letra);  */
+      fill: var(--color-letra); 
 }
 .social-links:hover,
 .social-links:focus{
       background-color: var(--accent-txt);
-}
-.social-link:hover{
-      fill: #df1e1e;
 }
       
 .clients{
@@ -410,6 +409,10 @@ ul{
       border: 1px solid #AFB1B8;
       box-sizing: border-box;
       border-radius: 4px;    
+}
+.svg-client:hover,
+.svg-client:focus{
+      color: #2196F3;
 }
 .class-client{
       width: 106px;
@@ -452,10 +455,10 @@ ul{
 }
 .footerr-item{
       border-radius: 50%;
+      background-color: #212b33;
 }
 .footerr-item:not(:last-child){
       margin-right: 10px;
-      background-color: #212b33;
 }
 .footerr-item:hover,
 .footerr-item:focus{

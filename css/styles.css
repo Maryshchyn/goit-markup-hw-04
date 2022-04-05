@@ -358,11 +358,6 @@ ul{
       height: 20px;
       background-position: center;
 } 
-.social-link:hover,
-.social-link:focus{
-      color: #ffffff;
-      fill: #FFFFFF;
-}
 .social-links{
       display: flex;
       justify-content: center;
@@ -370,7 +365,7 @@ ul{
       border-radius: 50%;
       width: 44px;
       height: 44px;
-      fill: #ffffff; 
+      fill: #AFB1B8; 
 }
 .social-links:hover,
 .social-links:focus{

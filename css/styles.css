@@ -143,11 +143,12 @@ ul{
       color: #2196F3;
 }
 .header-icons{
+      fill: currentColor;
       display: flex;
       margin-right: 10px;
       justify-content: center;
       align-items: center;
-      fill: #757575;
+      /* fill: #757575; */
 }
 .portfolio-header-icons{
       margin-right: 10px;
@@ -399,6 +400,7 @@ ul{
       margin-right: 30px;
 }
 .client-link{
+      color: #AFB1B8;
       display: flex;
       width: 170px;
       height: 92px;
@@ -410,13 +412,13 @@ ul{
 }
 .client-link:hover,
 .client-link:focus{
-      fill: #2196F3;
+      color: #2196F3;
       border-color: #2196F3;
 }
 .svg-client {
       width: 106px;
       height: 60px;
-      fill: #AFB1B8;
+      fill: currentColor;
 }
 .class-client{
       width: 106px;
